@@ -6,27 +6,26 @@
     
   }
 
-  /* .main-container {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-  } */
+  body {
+     background: #f5f8fa;
+  }
 
   .nav-container {
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: space-between;
+    /* padding: 30px; */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   }
+
 
 .ul-list ul {
     display: flex;
     color: black;
-    padding: 20px;
+    padding: 30px;
     justify-content: center;
     align-items: center;
+    margin-right: 50px;
 }
 
 .list a {
@@ -35,6 +34,9 @@
     color: black;
 }
 
+.list a:hover {
+    text-decoration: underline;
+}
 
 .list {
     list-style: none;
@@ -42,4 +44,249 @@
 
 .account-class {
     padding: 8px 12px;
+    background: white;    
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
 }
+
+.ul-list .account-class:hover {
+    border: 2px solid black;
+}
+
+main {
+    margin-bottom: 80px;
+    margin-top: 70px;
+    
+}
+
+.dashboard-container {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 7px;
+    box-shadow: 0px 4px 50px 0px hsla(222, 68%, 4%, 0.1);
+    height: 100vh;
+    width: 700px;
+}
+
+.checkout {
+    height: 100%;
+    padding: 40px;
+    width: 70%;
+}
+
+.checkout-head {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 30px;
+}
+
+.checkout-head h2 {
+    font-weight: 400;
+    font-size: 1.88rem;
+    text-shadow: 3px 3px 2px rgba(219, 219, 219, 1)
+}
+
+.basic-info {
+    padding: 20px;
+}
+
+.basic-info-head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.basic-info-head img {
+    margin-right: 10px;
+}
+
+.desc {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.checkout-info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.border-payment {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.inputs label {
+    margin-bottom: 7px;
+    font-size: 0.8rem;
+}
+
+.input-margin {
+margin-right: 30px;
+}
+
+.inputs input {
+    background: #edeff2;
+    outline: none;
+    padding: 10px 15px;
+    border: none;
+}
+
+.email-input input {
+    width: 75%;
+}
+
+.payment-info-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.payment-info-title img {
+    margin-right: 10px;
+}
+
+.credit-card input {
+    width: 100%;
+}
+
+#card-number {
+    position: relative;
+    width: 100%;
+}
+
+#pin {
+    position: absolute;
+    width: 8%;
+    margin-left: -120px;
+}
+
+.pay-button .btn{
+    padding: 10px 50px;
+    color: #ffffff;
+    background: #038E7D;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.need-help {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.need-help img {
+    margin-right: 6px;
+}
+
+.contact {
+    text-decoration: underline;
+}
+
+.stripe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.freelance {
+    background: #1179bf;
+    color: #ffffff;
+    height: 100%;
+    width: 50%;
+    padding: 40px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px; 
+}
+
+.first-part {
+    margin-bottom: 30px;
+}
+
+.first part h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.first-part #renew {
+    font-style: italic;
+    font-size: .7rem;
+    margin-top: 10px;
+}
+
+.second-part {
+    margin-bottom: 40px;
+}
+
+.listed {
+    display: flex;
+    font-size: .7rem;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.listed img {
+
+    margin-right: 7px;
+}
+
+.third-part {
+    margin-bottom: 30px;
+    font-size: .7rem;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.third-part strong {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.third-part .bold {
+    margin-top: -10px;
+}
+
+.third-part hr {
+    background: #ffffff;
+    width: 100%;
+    height: 1px;
+    margin-top: 30px; 
+}
+
+.fourth-part p {
+    font-style: italic;
+    font-size: .7rem;
+}
+
+.last-img img {
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.last-img {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: .7rem;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background: #E0E6EA;
+
+}
+
+
+
+

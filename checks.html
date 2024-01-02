@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav class="nav-container">
-            <img src="./images/wppusher-logo copy.png" alt="company logo" width="100px" />
+            <img id="logo" src="./images/wppusher-logo copy.png" alt="company logo" />
             <div class="ul-list">
                 <ul>
                     <li class="list"><a href="">Download</a></li>
@@ -23,29 +23,30 @@
         </nav>
     </header>
 
+    <div class="divider"></div>
     <main>
         <div class="dashboard-container">
             <div class="checkout">
               <div class="checkout-head">
                 <h2>Checkout</h2>
               </div>  
-              <div class="basic-infomation">
-                <div class="basic-infomation-head">
+              <div class="basic-info">
+                <div class="basic-info-head">
                     <img src="./images/1 (1).png" alt="" width="30px">
-                    <span>Your Basic Information</span>
+                    <span class="desc">Your Basic Information</span>
                 </div>
 
                 <div class="checkout-info">
-                    <div class="input-margin"><label for="first name">First Name</label>
+                    <div class=" inputs input-margin"><label for="first name">First Name</label>
                     <input type="text" name="first name" placeholder="Jane" />
                 </div>
 
-                <div class="last-input"><label for="last name">Last Name</label>
+                <div class="inputs"><label for="last name">Last Name</label>
                     <input type="text" name="last name" placeholder="Doe" />
                   </div>
                 </div>
 
-                <div class="email-input">
+                <div class="inputs email-input">
                     <label for="email">Email</label>
                     <input type="email" name="email" placeholder="jandoe@example.com">
                 </div>
@@ -54,10 +55,10 @@
                 <div class="payment-info">
                     <div class="payment-info-title">
                         <img src="./images/2.png" alt="" width="30px" />
-                        <span>Your Payment Information</span>
+                        <span class="desc">Your Payment Information</span>
                     </div>
                 
-                <div class="input-credit-card">
+                <div class="inputs credit-card">
                     <p>Credit Card</p>
                     <input type="text" id="card-number" placeholder="Card Number" />
                     <input type="text" id="pin" placeholder="MM/YY     CVC" />
@@ -68,7 +69,7 @@
             </div>
             <div class="need-help">
                 <img src="./images/Mask.png" alt="" width="15px">
-                <span><strong>Need any help?</strong>Don't hesitate to contact support!</span>
+                <span><strong>Need any help?</strong> Don't hesitate to <span class="contact">contact</span> support!</span>
             </div>
 
             <div class="stripe">
@@ -102,12 +103,12 @@
 
                     <div class="third-part">
                         <p>Need <strong>20</strong> client sites?</p>
-                        <p><strong>Switch to the Agency plan</strong></p>
+                        <p class="bold"><strong>Switch to the Agency plan</strong></p>
                         <hr />
                     </div>
 
                     <div class="fourth-part">
-                        <p>FTP is horrible to deal with. <strong>WP Pusher</strong>solves that issue, and customer support is awesome!</p>
+                        <p>FTP is horrible to deal with. <strong> WP Pusher</strong>solves that issue, and customer support is awesome!</p>
                     </div>
 
                     <div class="last-img">
